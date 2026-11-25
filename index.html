@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Baby On Track Privacy</title>
+<meta name="description" content="Privacy policy and support for Baby On Track on iPhone.">
+<link rel="icon" href="icon.png">
+<style>
+/* One reading column on the app's Cloud Nine pink; the rose of the app's buttons is the only accent.
+   System fonts only: this page loads nothing from anyone else. */
+:root {
+  --bg: #F9E3E0;
+  --card: #FFF7F6;
+  --ink: #4A2C42;
+  --sub: #7A4D66;
+  --line: #EFCFCB;
+  --accent: #B8405F;
+  --chip: #F3D2CF;
+  --display: ui-rounded, "SF Pro Rounded", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --body: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1E1520; --card: #2A1E2B; --ink: #F6E6EA; --sub: #C6A9B6; --line: #3E2E3F;
+    --accent: #F08AA3; --chip: #352737; color-scheme: dark;
+  }
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; background: var(--bg); color: var(--ink); font-family: var(--body); font-size: 16px; line-height: 1.6;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 32px 64px;
+}
+main { max-width: 680px; margin: 0 auto; display: flex; flex-direction: column; gap: 28px; }
+.col { display: flex; flex-direction: column; gap: 28px; }
+header { display: flex; flex-direction: column; gap: 14px; }
+.brand { display: flex; align-items: center; gap: 12px; }
+.brand img { width: 44px; height: 44px; border-radius: 11px; flex: none; border: 1px solid var(--line); }
+.brand span { font-weight: 700; font-size: 15px; color: var(--sub); }
+h1 { font-family: var(--display); font-size: clamp(30px, 6vw, 40px); line-height: 1.1; margin: 0; letter-spacing: -0.01em; text-wrap: balance; }
+.meta { color: var(--sub); font-size: 14px; margin: 0; }
+.switch { display: inline-flex; background: var(--chip); border-radius: 12px; padding: 4px; gap: 4px; align-self: flex-start; }
+.switch button {
+  font: 600 14px var(--body); color: var(--sub); background: transparent; border: 0; border-radius: 9px;
+  padding: 8px 16px; cursor: pointer;
+}
+.switch button[aria-pressed="true"] { background: var(--accent); color: #FFFFFF; }
+@media (prefers-color-scheme: dark) { .switch button[aria-pressed="true"] { color: #1E1520; } }
+.switch button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.summary {
+  background: var(--card); border: 1px solid var(--line); border-left: 4px solid var(--accent);
+  border-radius: 14px; padding: 20px 22px; display: flex; flex-direction: column; gap: 10px;
+}
+.summary p { margin: 0; font-weight: 700; }
+.summary ul { margin: 0; padding-left: 20px; display: flex; flex-direction: column; gap: 6px; }
+section { display: flex; flex-direction: column; gap: 8px; }
+h2 { font-family: var(--display); font-size: 20px; margin: 0; text-wrap: balance; }
+p { margin: 0; max-width: 65ch; }
+ul.plain { margin: 0; padding-left: 20px; display: flex; flex-direction: column; gap: 6px; max-width: 65ch; }
+table { border-collapse: collapse; width: 100%; font-size: 15px; }
+.tablewrap { overflow-x: auto; background: var(--card); border: 1px solid var(--line); border-radius: 14px; }
+th, td { text-align: left; padding: 10px 14px; border-bottom: 1px solid var(--line); vertical-align: top; }
+tr:last-child td { border-bottom: 0; }
+th { font-size: 13px; color: var(--sub); font-weight: 700; }
+a { color: var(--accent); font-weight: 600; text-underline-offset: 2px; overflow-wrap: anywhere; }
+footer { color: var(--sub); font-size: 14px; border-top: 1px solid var(--line); padding-top: 16px; }
+[hidden] { display: none !important; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <div class="brand">
+      <img src="icon.png" alt="" width="44" height="44">
+      <span>Baby On Track</span>
+    </div>
+    <div class="switch" role="group" aria-label="Language / Taal">
+      <button id="btn-nl" type="button" aria-pressed="false">Nederlands</button>
+      <button id="btn-en" type="button" aria-pressed="true">English</button>
+    </div>
+  </header>
+
+  <div id="nl" lang="nl" hidden>
+    <div class="col">
+      <header>
+        <h1>Privacybeleid</h1>
+        <p class="meta">Laatst bijgewerkt: 25 november 2026</p>
+      </header>
+      <div class="summary">
+        <p>In het kort</p>
+        <ul>
+          <li>Alles wat je logt staat op je iPhone en in je eigen iCloud. Wij kunnen het niet zien.</li>
+          <li>Je deelt alleen met de mensen die jij uitnodigt, via iCloud van Apple.</li>
+          <li>Geen account bij ons, geen reclame, geen tracking, geen analysetools.</li>
+        </ul>
+      </div>
+      <section>
+        <h2>Wie we zijn</h2>
+        <p>Baby On Track is een iPhone-app om voedingen, slaap, luiers en groei van je baby bij te houden, samen met je partner. Vragen over privacy of de app kun je sturen naar <a href="mailto:tha_ultima@hotmail.com">tha_ultima@hotmail.com</a>.</p>
+      </section>
+      <section>
+        <h2>Wat je in de app bewaart</h2>
+        <ul class="plain">
+          <li>Over je kind: naam, geslacht, geboortedatum, gewicht, lengte, hoofdomtrek en een foto als je die kiest.</li>
+          <li>Wat je logt: voedingen, kolven, slaap, luiers, temperatuur, vitamine D, bad, taken, tandjes, mijlpalen, vaccinaties en herinneringen met foto’s of video’s.</li>
+          <li>Je instellingen, timers en je naam zoals die bij een voeding staat.</li>
+        </ul>
+        <p>Dit wordt bewaard op je iPhone en in de privé-iCloud-opslag van je eigen Apple Account (CloudKit), zodat het een reservekopie heeft. Wij hebben geen toegang tot je iCloud. Die opslag valt onder het privacybeleid van Apple.</p>
+      </section>
+      <section>
+        <h2>Delen met je gezin</h2>
+        <p>Nodig je iemand uit, dan deelt de app je gezinsgegevens via iCloud-delen van Apple met precies die personen. Zij zien en loggen dan dezelfde gegevens op hun eigen iPhone. Je kunt het delen altijd stoppen in de app onder Gezin.</p>
+      </section>
+      <section>
+        <h2>Meldingen van voedingen</h2>
+        <p>Staat “Meldingen van voedingen” aan (standaard uit), dan krijgt je partner een melding als jij een voeding logt. Daarvoor bewaart de app kort een bericht in de openbare database van de app in iCloud. Dat bericht bevat alleen een anonieme iCloud-code voor je gezin en je telefoon (zonder naam of e-mailadres), en de tekst van de melding, versleuteld met een sleutel die alleen jullie telefoons hebben (AES-GCM). Namen en hoeveelheden zijn dus niet leesbaar voor Apple, voor ons of voor anderen. Het bericht wordt na een paar minuten weer gewist.</p>
+      </section>
+      <section>
+        <h2>Toestemmingen</h2>
+        <div class="tablewrap">
+          <table>
+            <thead><tr><th>Toestemming</th><th>Waarvoor</th></tr></thead>
+            <tbody>
+              <tr><td>Meldingen</td><td>Timers (zoals vitamine D), de voedingsherinnering en, als je dat aanzet, meldingen van voedingen. Timers worden op je iPhone zelf ingepland.</td></tr>
+              <tr><td>Foto’s</td><td>Alleen de foto’s of video’s die je zelf kiest, voor je kind of het herinneringenboek. De app ziet de rest van je fotobibliotheek niet.</td></tr>
+              <tr><td>iCloud</td><td>Reservekopie en delen met je gezin, zoals hierboven.</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p>Je kunt dit altijd wijzigen in de app Instellingen van je iPhone.</p>
+      </section>
+      <section>
+        <h2>Toegangsscherm en widgets</h2>
+        <p>Widgets op je beginscherm en toegangsscherm tonen bijvoorbeeld de laatste voeding. Iedereen die je telefoon ziet, kan dat dus ook zien.</p>
+      </section>
+      <section>
+        <h2>Aankopen</h2>
+        <p>De ontgrendeling wordt via Apple betaald. Wij krijgen geen betaalgegevens. De app slaat in je gezinsgegevens alleen op dat er ontgrendeld is, zodat de andere telefoons ook ontgrendeld worden.</p>
+      </section>
+      <section>
+        <h2>Wat we niet doen</h2>
+        <ul class="plain">
+          <li>Geen account of registratie bij ons.</li>
+          <li>Geen reclame en geen code van reclame- of analysebedrijven.</li>
+          <li>Geen tracking over apps of websites heen.</li>
+          <li>Geen verzameling, verkoop of doorgifte van gegevens.</li>
+        </ul>
+        <p>Exporteren (CSV), feedback sturen, een gids openen of het alarmnummer bellen gebeurt alleen als jij dat doet, met de app of website die je zelf kiest.</p>
+      </section>
+      <section>
+        <h2>Je gegevens verwijderen</h2>
+        <ul class="plain">
+          <li>In de app: Instellingen → Alles wissen verwijdert de kinderen en logs van deze iPhone.</li>
+          <li>De iCloud-kopie: Instellingen van je iPhone → je naam → iCloud → Opslag beheren → Baby On Track → Verwijder gegevens.</li>
+          <li>Ben je uitgenodigd, dan stop je met delen onder Gezin in de app.</li>
+        </ul>
+      </section>
+      <section>
+        <h2>Gezondheid</h2>
+        <p>De inzichten, groeicurves (WHO) en gidsen zijn algemene informatie en geen medisch advies. Twijfel je, vraag het je arts, verloskundige of het consultatiebureau.</p>
+      </section>
+      <section>
+        <h2>Kinderen</h2>
+        <p>Baby On Track is gemaakt voor ouders. Gegevens over je kind blijven op jullie telefoons en in jullie iCloud, en worden door ons niet verzameld.</p>
+      </section>
+      <section>
+        <h2>Hulp nodig?</h2>
+        <p>Werkt iets niet zoals verwacht, of heb je een idee? Mail naar <a href="mailto:tha_ultima@hotmail.com">tha_ultima@hotmail.com</a>. Vermeld je iPhone-model en iOS-versie, dat helpt.</p>
+      </section>
+      <section>
+        <h2>Wijzigingen</h2>
+        <p>Als dit beleid verandert, passen we de datum bovenaan aan. Bij belangrijke wijzigingen vermelden we dat ook in de app-update.</p>
+      </section>
+    </div>
+  </div>
+
+  <div id="en" lang="en">
+    <div class="col">
+      <header>
+        <h1>Privacy Policy</h1>
+        <p class="meta">Last updated: 25 November 2026</p>
+      </header>
+      <div class="summary">
+        <p>In short</p>
+        <ul>
+          <li>Everything you log stays on your iPhone and in your own iCloud. We can't see it.</li>
+          <li>You share only with the people you invite, through Apple's iCloud.</li>
+          <li>No account with us, no ads, no tracking, no analytics.</li>
+        </ul>
+      </div>
+      <section>
+        <h2>Who we are</h2>
+        <p>Baby On Track is an iPhone app for keeping track of your baby's feeds, sleep, nappies and growth, together with your partner. Send questions about privacy or the app to <a href="mailto:tha_ultima@hotmail.com">tha_ultima@hotmail.com</a>.</p>
+      </section>
+      <section>
+        <h2>What you keep in the app</h2>
+        <ul class="plain">
+          <li>About your child: name, sex, birth date, weight, length, head size and a photo if you pick one.</li>
+          <li>What you log: feeds, pumping, sleep, nappies, temperature, vitamin D, baths, tasks, teeth, milestones, vaccines and memories with photos or videos.</li>
+          <li>Your settings, timers, and your name as it appears on a feed.</li>
+        </ul>
+        <p>This is kept on your iPhone and in the private iCloud storage of your own Apple Account (CloudKit), so it has a backup. We have no access to your iCloud. That storage follows Apple's privacy policy.</p>
+      </section>
+      <section>
+        <h2>Sharing with your family</h2>
+        <p>When you invite someone, the app shares your family's data with exactly those people through Apple's iCloud sharing. They then see and log the same data on their own iPhone. You can stop sharing any time under Family in the app.</p>
+      </section>
+      <section>
+        <h2>Feed notifications</h2>
+        <p>When “Feed notifications” is on (it's off by default), your partner gets a notification when you log a feed. For this, the app briefly keeps a message in the app's public database in iCloud. The message holds only an anonymous iCloud code for your family and your phone (no name or email address), and the notification text, locked with a key that only your family's phones have (AES-GCM). Names and amounts can't be read by Apple, by us or by anyone else. The message is deleted again after a few minutes.</p>
+      </section>
+      <section>
+        <h2>Permissions</h2>
+        <div class="tablewrap">
+          <table>
+            <thead><tr><th>Permission</th><th>What it's for</th></tr></thead>
+            <tbody>
+              <tr><td>Notifications</td><td>Timers (like vitamin D), the feed reminder and, if you turn them on, feed notifications. Timers are scheduled on your iPhone itself.</td></tr>
+              <tr><td>Photos</td><td>Only the photos or videos you pick yourself, for your child or the memory book. The app doesn't see the rest of your library.</td></tr>
+              <tr><td>iCloud</td><td>Backup and sharing with your family, as above.</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p>You can change these any time in the Settings app on your iPhone.</p>
+      </section>
+      <section>
+        <h2>Lock screen and widgets</h2>
+        <p>Widgets on your Home Screen and Lock Screen show things like the last feed. Anyone who sees your phone can see this too.</p>
+      </section>
+      <section>
+        <h2>Purchases</h2>
+        <p>The unlock is paid through Apple. We receive no payment details. The app only notes in your family's data that it's unlocked, so the other phones unlock too.</p>
+      </section>
+      <section>
+        <h2>What we don't do</h2>
+        <ul class="plain">
+          <li>No account or sign-up with us.</li>
+          <li>No ads and no code from advertising or analytics companies.</li>
+          <li>No tracking across apps or websites.</li>
+          <li>No collecting, selling or passing on of data.</li>
+        </ul>
+        <p>Exporting (CSV), sending feedback, opening a guide's link or calling the emergency number happen only when you do it, with the app or website you choose.</p>
+      </section>
+      <section>
+        <h2>Deleting your data</h2>
+        <ul class="plain">
+          <li>In the app: Settings → Erase removes the children and logs from this iPhone.</li>
+          <li>The iCloud copy: iPhone Settings → your name → iCloud → Manage Storage → Baby On Track → Delete Data.</li>
+          <li>If you were invited, stop sharing under Family in the app.</li>
+        </ul>
+      </section>
+      <section>
+        <h2>Health</h2>
+        <p>The insights, growth charts (WHO) and guides are general information, not medical advice. If in doubt, ask your doctor, midwife or health visitor.</p>
+      </section>
+      <section>
+        <h2>Children</h2>
+        <p>Baby On Track is made for parents. Data about your child stays on your phones and in your iCloud, and isn't collected by us.</p>
+      </section>
+      <section>
+        <h2>Need help?</h2>
+        <p>Something not working as expected, or have an idea? Email <a href="mailto:tha_ultima@hotmail.com">tha_ultima@hotmail.com</a>. Mentioning your iPhone model and iOS version helps.</p>
+      </section>
+      <section>
+        <h2>Changes</h2>
+        <p>If this policy changes, we update the date at the top. For important changes, we also mention it in the app update notes.</p>
+      </section>
+    </div>
+  </div>
+
+  <footer>Baby On Track · <a href="mailto:tha_ultima@hotmail.com">tha_ultima@hotmail.com</a></footer>
+</main>
+
+<script>
+(function () {
+  var nl = document.getElementById('nl'), en = document.getElementById('en');
+  var bnl = document.getElementById('btn-nl'), ben = document.getElementById('btn-en');
+  function show(lang) {
+    var isNl = lang === 'nl';
+    nl.hidden = !isNl; en.hidden = isNl;
+    bnl.setAttribute('aria-pressed', String(isNl)); ben.setAttribute('aria-pressed', String(!isNl));
+    document.documentElement.lang = lang;
+  }
+  bnl.addEventListener('click', function () { show('nl'); });
+  ben.addEventListener('click', function () { show('en'); });
+  var start = location.hash === '#nl' ? 'nl'
+    : location.hash === '#en' ? 'en'
+    : ((navigator.language || '').toLowerCase().startsWith('nl') ? 'nl' : 'en');
+  show(start);
+})();
+</script>
+</body>
+</html>
